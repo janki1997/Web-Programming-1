@@ -1,0 +1,17 @@
+<main class="home">
+    <h1> {{document_title}}</h1>
+    <p class="description">
+        This website is useful to check whether the string is palindrome or not. Now What is the palindrome ? Palindrome
+        means a word, phrase, or sequence that reads the same backwards as forwards.<br /> E.g. "Madam", "1221", "Never
+        Odd Or Even", etc.
+    </p>
+    <p class="description">
+        By using our website you get your result. Our website helpful to give you the best result of given string is
+        palindrome or not.
+    </p>
+    <form action="http://localhost:3000/result" method="post">
+        <input type="text" name="text-to-test" id="palindrome" class="palindrome_input"><br />
+        <label class="palindrome_info" for="palindrome" >Please Enter Any String</label><br /><br />
+        <input type="submit" value="Check" class="bottom_space">
+    </form>
+</main>

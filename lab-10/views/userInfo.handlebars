@@ -1,0 +1,47 @@
+{{#if userInfo}}
+
+<div id="information">
+    <h1>{{document_title}}</h1><br>
+    <p>
+        <span class="user-info">First Name: </span> {{userInfo.first_name}}
+
+    </p>
+    <p>
+        <span class="user-info">Last Name: </span> {{userInfo.last_name}}
+
+    </p>
+    <p>
+        <span class="user-info">Profession </span> {{userInfo.profession}}
+
+    </p>
+    <p>
+        <span class="user-info">Bio: </span> {{userInfo.bio}}
+
+    </p>
+    <div class="logout">
+
+        <a class="link" href="/logout">logout</a>
+    </div>
+
+</div>
+
+{{/if}}
+
+
+{{#if error}}
+<div class="login-info">
+    <h1>{{document_title}}</h1><br>
+    <p class="error">{{this.error}}</p>
+    <a  class="el" href="/"><h2>Click here</h2></a> to go back to login page
+</div>
+
+{{/if}}
+
+
+{{#if logout_message}}
+<div class="login-info">
+    <h1>{{document_title}}</h1><br>
+    <p>{{this.logout_message}}</p><br>
+    <a class="el" href="/"><h2>Click here</h2></a> to go back to login page
+</div>
+{{/if}}

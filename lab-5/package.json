@@ -1,0 +1,15 @@
+{
+  "name": "lab-5",
+  "version": "1.0.0",
+  "description": "hi, this is my 5th program",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Janki Patel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "cs-546-lab-4",
+  "version": "1.0.0",
+  "description": "\"hi, this is my 4th program\"",
+  "main": "index.js",
+  "dependencies": {
+    "mongodb": "^3.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "janki patel - 10457365",
+  "license": "ISC"
+}

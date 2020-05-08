@@ -1,0 +1,102 @@
+.palindrome_input{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+
+.palindrome_info{
+    font-size: 20px;
+}
+
+.not-palindrome {
+    color: #FF0000;
+    font-size: 18px;
+}
+
+.is-palindrome {
+    color: #0000FF;
+    font-size: 18px;
+}
+
+body {
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+}
+
+.str{
+    font-size: 20px; 
+}
+
+.description {
+    font-size: large;
+    text-align: justify;
+}
+
+.home{
+    background-color: navajowhite;
+    padding: 10px;
+  
+}
+
+
+.bottom_space{
+    margin-bottom:  30px;
+    background-color: indigo;
+    color: khaki;
+    font-size: 25px;
+    
+}
+
+
+
+.bottom_space:hover{
+    color: navy;
+    background-color: orchid;
+}
+
+.palindrome_input{
+    font-size: 25px;
+}
+
+#pali_info{
+    color: green ;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+h1{
+    color: darkslateblue;
+    font-weight: bold;
+    text-decoration: dotted;
+    font-size: 6pc;
+    text-align:  left;
+}
+div h4{
+    color: maroon;
+    font-size: 30px;
+}
+
+#box{
+    text-align:  left;
+}
+
+#attempts {
+    text-align:  left;
+    font-size: 25px;
+
+}
+
+#footer{
+    color: mediumvioletred;
+    padding-top  : 5px;
+    padding-bottom  : 5px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+#list {
+    background-color: white;
+    min-height: 50px;
+    width: 200px ;
+}

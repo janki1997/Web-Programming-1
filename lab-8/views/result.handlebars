@@ -1,0 +1,19 @@
+<main class="result">
+    <h1> {{document_title}}</h1>
+    {{#if success_message}}
+    <p class="str"> Given Palindrome string "{{input_string}}"</p>
+    <p class="success"> {{success_message}} </p>
+    {{/if}}
+
+
+    {{#if failure_message}}
+    <p class="str"> Given Palindrome string "{{input_string}}"</p>
+    <p class="failure"> {{failure_message}} </p>
+    {{/if}}
+
+    {{#if string_error}}
+    <p class="failure"> {{error}} </p>
+    {{/if}}
+
+    <p class="bottom_space"> Click here <a href="http://localhost:3000/">Try another palindrome</a></p>
+</main>

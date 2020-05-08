@@ -1,0 +1,74 @@
+.palindrome_input{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+
+
+
+.palindrome_info{
+    font-size: 15px;
+}
+
+
+
+.failure {
+    color: red;
+    font-size: 18px;
+}
+
+
+
+.success {
+    color: green;
+    font-size: 18px;
+}
+
+
+
+body {
+    text-align: center;
+}
+
+
+
+.str{
+    font-size: 20px; 
+}
+
+
+
+.description {
+    font-size: large;
+    text-align: justify;
+}
+
+
+
+.error{
+   background-color: #eeeeee;
+   height:  100%;
+}
+
+
+
+
+.result{
+    background-color: lightskyblue;
+    height:  100%;
+}
+
+
+
+
+.home{
+    background-color: lightcoral;
+    height:  100%;
+}
+
+
+
+
+.bottom_space{
+    margin-bottom:  30px;
+}

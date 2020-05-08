@@ -1,0 +1,16 @@
+{
+  "name": "cs-546-lab-3",
+  "version": "1.0.0",
+  "description": "\"hi this is my 3rd program\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "janki patel - 10457365",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "node": "^13.8.0"
+  }
+}

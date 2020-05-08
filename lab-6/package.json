@@ -1,0 +1,16 @@
+{
+  "name": "lab-6",
+  "version": "1.0.0",
+  "description": "hi this is my 6th program",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Janki_lab6",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.5.5"
+  }
+}
