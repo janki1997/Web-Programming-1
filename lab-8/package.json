@@ -4,8 +4,8 @@
   "description": "hi, this is my 8th program and 1st program for css",
   "main": "app.js",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
     "express-handlebars": "^4.0.2",
     "node": "^13.12.0",
     "nodemon": "^2.0.2"
